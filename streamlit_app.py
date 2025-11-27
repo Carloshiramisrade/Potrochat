@@ -15,7 +15,7 @@ knowledge_base = {
     "unidad_1": {
         "titulo": "📚 Contexto teórico e histórico: De la Segunda Guerra Mundial a la Globalización",
         "emoji": "📚",
-        "descripcion": "Evolución histórica de los tratados internacionales desde la antigüedad hasta la era contemporánea",
+        "descripcion": "Contexto teórico e histórico: De la Segunda Guerra Mundial a la Globalización",
         "temas": {
             "modelos_integracion": {
                 "pregunta": "Modelos de integración regional y económica",
@@ -77,7 +77,7 @@ knowledge_base = {
     "unidad_2": {
         "titulo": "🏛️ Organismos Internacionales: Acuerdos que les regulan",
         "emoji": "🏛️",
-        "descripcion": "Análisis de los principales organismos internacionales que regulan el comercio global",
+        "descripcion": "Organismos Internacionales: Acuerdos que les regulan",
         "temas": {
             "oma": {
                 "pregunta": "Organización Mundial de Aduanas (OMA)",
@@ -140,7 +140,7 @@ knowledge_base = {
     "unidad_3": {
         "titulo": "🌍 Acuerdos y Tratados Internacionales", 
         "emoji": "🌍",
-        "descripcion": "Marco jurídico y práctico de los tratados internacionales en el contexto global",
+        "descripcion": "Acuerdos y Tratados Internacionales",
         "temas": {
             "conceptos": {
                 "pregunta": "Conceptos básicos de tratados internacionales",
@@ -191,7 +191,7 @@ knowledge_base = {
     "unidad_4": {
         "titulo": "🇲🇽 Principales Acuerdos Internacionales de México", 
         "emoji": "🇲🇽", 
-        "descripcion": "Análisis de la política comercial mexicana y sus principales acuerdos internacionales",
+        "descripcion": "Principales Acuerdos Internacionales de México",
         "temas": {
             "caracteristicas": {
                 "pregunta": "Características generales y normatividad aplicable",
@@ -242,7 +242,7 @@ knowledge_base = {
     "unidad_5": {
         "titulo": "📊 Efectos de los Tratados Internacionales en la Economía Mexicana",
         "emoji": "📊",
-        "descripcion": "Análisis del impacto económico y distributivo de los acuerdos comerciales en México",
+        "descripcion": "Efectos de los Tratados Internacionales en la Economía Mexicana",
         "temas": {
             "balanza_pagos": {
                 "pregunta": "Balanza de Pagos y su estructura",
@@ -481,13 +481,13 @@ if st.session_state.quiz_active:
 
 # Pie de página
 st.sidebar.markdown("---")
-st.sidebar.markdown("### 📞 Soporte y Recursos")
+st.sidebar.markdown("### creditos")
 st.sidebar.info("""
 **Potro Internacional 🐎**  
 *Tu compañero en comercio exterior*  
-**Desarrollado para:** Curso de Tratados Internacionales  
-**Fuentes principales:** Diapositivas del curso y bibliografía especializada  
-**Actualizado:** Diciembre 2024
+**Desarrollado para:** Curso de Acuerdos y Tratados Internacionales  
+**Por :** Carlos Hiram Garduño Israde. Grupo N2 
+**Actualizado:** noviembre 2025
 """)
 
 # Información de contacto expandida
@@ -500,14 +500,8 @@ with st.sidebar.expander("ℹ️ Acerca de este chatbot"):
     - Evaluación formativa del conocimiento
     - Acceso inmediato a información relevante
     
-    ### 📚 Fuentes Académicas
-    - Programa Global del Curso
-    - Diapositivas de todas las unidades
-    - Bibliografía especializada en tratados
-    - Datos oficiales de organismos internacionales
-    
     ### 🐎 Potro Internacional 
-    *persiguiendo el conocimiento del comercio global*
+    *Persiguiendo el conocimiento del comercio global*
     
     **¡Buena suerte en tu aprendizaje!**
     """)
