@@ -4,7 +4,7 @@ import random
 # Configuración inicial
 st.set_page_config(page_title="Potro Internacional 🐎", page_icon="🐎", layout="wide")
 st.title("Potro Internacional 🐎")
-st.markdown("¡Hola! Soy tu asistente en tratados internacionales. ¿En qué puedo ayudarte? 🌟")
+st.markdown("¡Hola! Soy tu asistente en tratados y acuerdos internacionales. ¿En qué puedo ayudarte? 🌟")
 
 # Estado de la conversación
 if 'quiz_active' not in st.session_state:
@@ -507,7 +507,7 @@ with st.sidebar.expander("ℹ️ Acerca de este chatbot"):
     - Datos oficiales de organismos internacionales
     
     ### 🐎 Potro Internacional 
-    *Galopando hacia el conocimiento del comercio global*
+    *persiguiendo el conocimiento del comercio global*
     
-    **¡Buen provecho en tu aprendizaje!**
+    **¡Buena suerte en tu aprendizaje!**
     """)
